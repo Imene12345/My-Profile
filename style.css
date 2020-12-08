@@ -1,0 +1,76 @@
+/*colors and fonts*/
+body {
+background-color: #efee9d;
+font-family: Halvetica;
+font-size: 18px;
+color: black;
+font-weight: bold;
+}
+h1 {
+color: #a20a0a;
+font-family: Nerko One, cursive;
+font-size: 30px;
+text-justify: center;
+  }
+
+p { 
+	color: black;
+	font-family: Lobster, cursive;
+	font-weight: bold;
+	font-size: 22px;
+	}
+
+h2, h3, h4, h5, h6 {
+ color: #fffaa4;
+ font-weight: bold;
+ font-family: bril Fatface, cursive;                                                                                               
+  font-size: 22px; 
+  }
+
+ a {
+ 	color: #aa3a3a;
+ 	font-size: 19px;
+ }
+ a:hover {
+ color: #3797a4;
+ text-shadow: 5px 10px 40px rgba(0,0,0,50);
+ }
+/* Custom design with class */
+
+.container {
+width: 500px;
+margin: 20px auto;
+text-align: center;
+
+}
+@media (max-width: 500px) {
+.container {
+background-color: #d2c6b2;
+ }
+ }
+
+
+
+.card-green {
+	background: #b6eb7a;
+	padding: 50px;
+	box-shadow: 5px 10px 40px rgba(5,5,5,4);
+	border-radius: 30px;
+	margin: 10px;
+	text-align: center;
+}
+.img-rectangle {
+ border-radius: 30px;
+}
+.list-inline {
+ list-style: none;
+ padding-left: 0px;
+ padding-top: 0px;
+}
+.list-inline li {
+ display: inline;
+ padding: 15px;
+}
+.list-inline i {
+ font-size: 25px;
+}
