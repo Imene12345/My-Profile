@@ -41,14 +41,25 @@ h2, h3, h4, h5, h6 {
 width: 500px;
 margin: 20px auto;
 text-align: center;
-
 }
-@media (max-width: 500px) {
+
+@media (max-width: 760px) {
 .container {
-background-color: #d2c6b2;
- }
+ width: 500px;
+  }
  }
 
+ @media (max-width: 550px) {
+.container {
+ width: 400px;
+  }
+ }
+
+ @media (max-width: 450px) {
+.container {
+ width: 300px;
+  }
+ }
 
 
 .card-green {
